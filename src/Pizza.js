@@ -2,9 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { setPizza, setPeople, setPlates } from "./actions";
 
-const mapStatetoProps = (state) => {
-  return state;
-};
+const mapStatetoProps = (state) => state;
 
 const mapDispatchToProps = (dispatch) => {
   return {
