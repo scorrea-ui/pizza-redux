@@ -1,0 +1,5 @@
+const SET_PIZZA = "SET_PIZZA";
+const SET_PEOPLE = "SET_PEOPLE";
+const SET_PLATES = "SET_PLATES";
+
+export { SET_PIZZA, SET_PEOPLE, SET_PLATES };
