@@ -2,11 +2,13 @@
 /* ==========================================================================
    #FONT
    ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Thasadith&display=swap');
+
+
    .font-robo {
-    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+    font-family: 'Thasadith', sans-serif;
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
   
   /* ==========================================================================
      #GRID
