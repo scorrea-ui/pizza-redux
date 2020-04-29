@@ -22,12 +22,12 @@ const Pizza = (props) => {
   const { people, plates, pizza, setPlates, setPizza, setPeople } = props;
   return (
     <div>
-      <div class='page-wrapper bg-red p-t-180 p-b-100 font-robo'>
-        <div class='wrapper wrapper--w960'>
-          <div class='card card-2'>
-            <div class='card-heading'></div>
-            <div class='card-body'>
-              <div class='title'>
+      <div className='page-wrapper bg-red p-t-180 p-b-100 font-robo'>
+        <div className='wrapper wrapper--w960'>
+          <div className='card card-2'>
+            <div className='card-heading'></div>
+            <div className='card-body'>
+              <div className='title'>
                 <h2>Order your pizza</h2>
                 <span>( Each Pizza contains 8 slices )</span>
               </div>
@@ -38,7 +38,7 @@ const Pizza = (props) => {
                   setPlates();
                 }}
               >
-                <div class='input-group'>
+                <div className='input-group'>
                   <label for='personas'>
                     Number of people that will eat pizza
                     <input
@@ -52,11 +52,11 @@ const Pizza = (props) => {
                     />
                   </label>
                 </div>
-                <div class='input-group'>
+                <div className='input-group'>
                   <label for='pizzas'>
                     Number of slices that each person will eat
                     <input
-                      className='input input--style-2'
+                      classNamee='input input--style-2'
                       type='number'
                       name='pizza'
                       onChange={(event) => {
@@ -76,7 +76,7 @@ const Pizza = (props) => {
                   </button>
                 </div>
               </form>
-              <h4 class={`p-t-30 ${plates ? 'show' : 'hide'}`}>
+              <h4 className={`p-t-30 ${plates ? 'show' : 'hide'}`}>
                 The amount of pizzas you need to purchase are: {plates}
               </h4>
             </div>
